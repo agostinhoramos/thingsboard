@@ -1,14 +1,13 @@
 
-<h1 align="center">
+<div align="center">
   <br>
   <a href="https://thingsboard.io/"><img src="./thingsboard_logo.png" alt="Thingsboard" width="200"></a>
   <br>
     Thingsboard CE
   <br>
-</h1>
+</div>
 
-# ThingsBoard and RabbitMQ
-
+<br/><br/>
 This README provides instructions on setting up ThingsBoard with RabbitMQ using Docker Compose.
 
 ## Docker Compose Commands
