@@ -10,36 +10,6 @@
 <br/><br/>
 This README provides instructions on setting up ThingsBoard with RabbitMQ using Docker Compose.
 
-## Docker Compose Commands
-
-### Pull Images
-To pull the images specified in the `docker-compose.yml` file:
-
-```
-docker-compose pull
-```
-
-### Start Containers in Detached Mode
-To start all services defined in the `docker-compose.yml` file in detached mode:
-
-```
-docker-compose up -d
-```
-
-### Stop and Remove Containers
-To stop and remove all containers defined in the `docker-compose.yml` file:
-
-```
-docker-compose down
-```
-
-### View Logs
-To follow the logs of running containers:
-
-```
-docker-compose logs -f
-```
-
 ## Installing Docker
 
 ### Set Executable Permission
@@ -81,6 +51,36 @@ docker-compose up -d
 - System Administrator: `sysadmin@thingsboard.org` / `sysadmin`
 - Tenant Administrator: `tenant@thingsboard.org` / `tenant`
 - Customer User : `customer@thingsboard.org` / `customer`
+
+## Docker Compose Commands
+
+### Pull Images
+To pull the images specified in the `docker-compose.yml` file:
+
+```
+docker-compose pull
+```
+
+### Start Containers in Detached Mode
+To start all services defined in the `docker-compose.yml` file in detached mode:
+
+```
+docker-compose up -d
+```
+
+### Stop and Remove Containers
+To stop and remove all containers defined in the `docker-compose.yml` file:
+
+```
+docker-compose down
+```
+
+### View Logs
+To follow the logs of running containers:
+
+```
+docker-compose logs -f
+```
 
 ## Notes
 - Replace 'RABBITMQ_USER' and 'RABBITMQ_PASS' with your actual RabbitMQ username and password.
